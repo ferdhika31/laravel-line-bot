@@ -11,5 +11,10 @@
             "name": "Ferdhika Yudira",
             "email": "rpl4rt08@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ferdhika31\\LaravelLineBot\\": "src/"
+        }
+    }
 }
