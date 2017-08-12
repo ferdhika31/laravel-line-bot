@@ -1,0 +1,15 @@
+{
+    "name": "ferdhika31/laravel-line-bot",
+    "description": "Laravel 5.4.* line bot packages.",
+    "type": "plugin",
+    "require": {
+        "linecorp/line-bot-sdk": "^2.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ferdhika Yudira",
+            "email": "rpl4rt08@gmail.com"
+        }
+    ]
+}
