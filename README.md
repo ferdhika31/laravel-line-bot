@@ -1,20 +1,19 @@
-# LARAKUY LOG ACTIVITY
-Simple save log activity helper.
+# Laravel Line Bot
+Laravel 5.4.* Line Bot
 
-Package Laravel yang berfungsi untuk menyimpan log aktivitas ke dalam database.
-Diambil dari itsolutionstuff.
+Package Laravel yang berfungsi untuk menghubungkan line sdk.
 
 ## Instalasi
 
 ### Install dan Daftarkan Package
-`composer require larakuy/log-activity`
+`composer require ferdhika31/laravel-line-bot`
 
 Tambahkan Service Provider dan Facade pada `config.app`
 
 ```
 'providers' => [
 
-    Larakuy\LogActivity\LogActivityServiceProvider::class
+    Ferdhika31\LaravelLineBot\LineBotServiceProvider::class,
 
 ]
 ```
@@ -22,17 +21,14 @@ Tambahkan Service Provider dan Facade pada `config.app`
 ```
 'aliases' => [
 
-    'LogActivity' => Larakuy\LogActivity\Facades\LogActivity::class
+    'LineBot'  => Ferdhika31\LaravelLineBot\Facades\LineBot::class,
 
 ]
 ```
 
-### Jalankan Migration
+### Publish config
 ```
-php artisan migrate
+php artisan vendor:publish --provider="Ferdhika31\LaravelLineBot\LineBotServiceProvider"
 ```
-Ini akan membuat config file di lokasi folder config/line.php
-
 ## Penggunaan
 -
-
