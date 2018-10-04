@@ -1,3 +1,9 @@
+About the LINE Messaging API
+
+See the official API documentation for more information.
+
+English: https://developers.line.me/en/docs/
+Japanese: https://developers.line.me/ja/docs/
 # Laravel Line Bot
 Laravel 5.4.* Line Bot
 
